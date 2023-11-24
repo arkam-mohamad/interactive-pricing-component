@@ -2,3 +2,149 @@
   margin: 0;
   font-family: 'Manrope', sans-serif;
 }
+.colors{
+  color: hsl(174, 77%, 80%);
+  color: hsl(174, 86%, 45%);
+  color: hsl(14, 92%, 95%);
+  color: hsl(15, 100%, 70%);
+  color: hsl(226, 100%, 87%);
+  color: hsl(0, 0%, 100%);
+  color: hsl(230, 100%, 99%);
+  color: hsl(224, 65%, 95%);
+  color: hsl(223, 50%, 87%);
+  color: hsl(225, 20%, 60%);
+  color: hsl(227, 35%, 25%);
+  }
+
+body{
+  background-image: url('./images/bg-pattern.svg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: hsl(230, 100%, 99%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+header{
+  background-image: url('./images/pattern-circles.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 50px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+h1{
+  color: hsl(227, 35%, 25%);
+}
+p{
+  color: hsl(225, 20%, 60%);
+}
+main{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  gap: 20px;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsl(224, 65%, 95%);
+  width: 500px;
+}
+main > div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pricing p{
+  text-transform: uppercase;
+}
+.pricing h2{
+  color: hsl(227, 35%, 25%);
+  font-size: 48px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+h2 span{
+  font-size: 18px;
+  color: hsl(225, 20%, 60%);
+}
+.slider{
+  background-color: hsl(224, 65%, 95%);
+  border-radius: 10px;
+  position: relative;
+  height: 10px;
+  margin: 30px 0;
+}
+.green{
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: hsl(174, 77%, 80%);
+}
+.round{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: hsl(174, 86%, 45%);
+  box-shadow: 0px 3px 3px 3px hsl(174, 77%, 80%);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 50%;
+}
+.round img{
+  color: white;
+  /* background-color: white; */
+}
+.billing{
+  justify-content: end;
+  gap: 15px;
+}
+.toggle{
+  width: 50px;
+  height: 20px;
+  background-color: hsl(223, 50%, 87%);
+  border-radius: 10px;
+  position: relative;
+}
+.toggle small{
+  width:15px;
+  height: 15px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 2.5px;
+  left: 2.5px;
+}
+.discount{
+  color: hsl(15, 100%, 70%);
+  background-color: hsl(14, 92%, 95%);
+  padding: 3px 10px;
+  font-size: 15px;
+  border-radius: 20px;
+}
+.list{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.list p{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+button{
+  background-color: hsl(227, 35%, 25%);
+  border: 0;
+  color: hsl(230, 100%, 99%);
+  padding: 10px 50px;
+  border-radius: 50px;
+}
